@@ -1,0 +1,14 @@
+# Paste your ASCII art here.
+# Each line will be rendered verbatim in the SVG terminal window.
+# Keep lines under ~38 characters so the left panel doesn't overflow.
+# Delete this comment block when you add your art.
+#
+# Example placeholder (remove and replace):
+#
+#   ██╗    ██╗ █████╗ ██████╗ ███████╗
+#   ██║    ██║██╔══██╗██╔══██╗██╔════╝
+#   ██║ █╗ ██║███████║██║  ██║█████╗
+#   ██║███╗██║██╔══██║██║  ██║██╔══╝
+#   ╚███╔███╔╝██║  ██║██████╔╝███████╗
+#    ╚══╝╚══╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝
+#
