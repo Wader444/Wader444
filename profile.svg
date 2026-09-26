@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900" height="487"
+     viewBox="0 0 900 487"
+     role="img"
+     aria-label="Wader444 GitHub profile card">
+  <style>
+  @font-face {
+    font-family: 'FiraCode';
+    src: url('https://cdn.jsdelivr.net/npm/@fontsource/fira-code@5/files/fira-code-latin-400-normal.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+</style>
+  <rect width="900" height="487" rx="12" ry="12" fill="#0d1117" stroke="#2a2a3a" stroke-width="1.5"/>
+  <rect x="0" y="0" width="900" height="36" rx="12" ry="12" fill="#161b22"/>
+  <rect x="0" y="18" width="900" height="18" fill="#161b22"/>
+  <circle cx="31" cy="18" r="7" fill="#ff5f57"/>
+  <circle cx="53" cy="18" r="7" fill="#febc2e"/>
+  <circle cx="75" cy="18" r="7" fill="#28c840"/>
+  <text x="450.0" y="23" text-anchor="middle" xml:space="preserve" style="fill:#cc8a30;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">wader444@github ~ zsh</text>
+  <text x="24" y="73" text-anchor="start" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">[paste your art in ascii_art.txt]</text>
+  <line x1="344" y1="44" x2="344" y2="479" stroke="#cc8a30" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  <text x="356" y="73" text-anchor="start" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">wader444@github</text>
+  <text x="356" y="93" text-anchor="start" xml:space="preserve" style="fill:#cc8a30;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;opacity:0.6;">────────────────────────────────────────────────</text>
+  <text x="356" y="113" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">OS                    </text><text x="527.6" y="113" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Windows 11                </text>
+  <text x="356" y="133" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Uptime                </text><text x="527.6" y="133" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">5y 8m 24d                 </text>
+  <text x="356" y="153" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Host                  </text><text x="527.6" y="153" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Personal Laptop           </text>
+  <text x="356" y="173" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Kernel                </text><text x="527.6" y="173" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">NT 10.0.26100             </text>
+  <text x="356" y="193" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">IDE                   </text><text x="527.6" y="193" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">VS Code                   </text>
+  <text x="356" y="213" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Languages.Programming </text><text x="527.6" y="213" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Python, TypeScript        </text>
+  <text x="356" y="233" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Languages.Markup      </text><text x="527.6" y="233" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">HTML, CSS, Markdown       </text>
+  <text x="356" y="253" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Hobbies               </text><text x="527.6" y="253" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Coding, Gaming, Reading   </text>
+  <text x="356" y="273" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Contact.Email         </text><text x="527.6" y="273" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">cherish@example.com       </text>
+  <text x="356" y="293" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">Contact.LinkedIn      </text><text x="527.6" y="293" xml:space="preserve" style="fill:#56d4c8;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">linkedin.com/in/cherish64 </text>
+  <text x="356" y="313" text-anchor="start" xml:space="preserve" style="fill:#cc8a30;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;"></text>
+  <text x="356" y="333" text-anchor="start" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">GitHub Stats</text>
+  <text x="356" y="353" xml:space="preserve" style="fill:#cc8a30;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">  Repos               </text><text x="527.6" y="353" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">18                        </text>
+  <text x="356" y="373" xml:space="preserve" style="fill:#cc8a30;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">  Stars               </text><text x="527.6" y="373" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">127                       </text>
+  <text x="356" y="393" xml:space="preserve" style="fill:#cc8a30;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">  Followers           </text><text x="527.6" y="393" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">42                        </text>
+  <text x="356" y="413" xml:space="preserve" style="fill:#cc8a30;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">  Commits             </text><text x="527.6" y="413" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">1,034                     </text>
+  <text x="356" y="433" xml:space="preserve" style="fill:#cc8a30;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">  Lines Changed       </text><text x="527.6" y="433" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">60,300                    </text>
+  <text x="24" y="473" text-anchor="start" xml:space="preserve" style="fill:#ffb347;font-family:'FiraCode', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;font-size:13px;">$ _</text>
+</svg>
