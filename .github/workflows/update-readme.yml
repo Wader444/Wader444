@@ -1,0 +1,73 @@
+# update-readme.yml
+# ─────────────────────────────────────────────────────────────────────────────
+# Runs every 12 hours (and on manual dispatch).
+# Steps:
+#   1. Fetch live GitHub stats → stats.json
+#   2. Regenerate profile.svg from ascii_art.txt + stats.json
+#   3. Commit back to the repo ONLY if profile.svg actually changed.
+#
+# Required secret:
+#   GH_TOKEN – PAT with `repo` + `read:user` scopes
+#              (Settings → Secrets → Actions → New repository secret)
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: 🔄 Update Profile Card
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours, on the hour
+  workflow_dispatch:          # allow manual trigger from Actions UI
+
+permissions:
+  contents: write             # needed to push the committed file
+
+jobs:
+  update-profile:
+    name: Fetch stats & regenerate SVG
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout ────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
+      # ── 2. Set up Python ───────────────────────────────────────────────────
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ── 3. Install dependencies ────────────────────────────────────────────
+      - name: Install Python dependencies
+        run: pip install requests
+
+      # ── 4. Fetch GitHub stats ──────────────────────────────────────────────
+      - name: Fetch GitHub stats → stats.json
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python fetch_stats.py
+
+      # ── 5. Regenerate SVG ──────────────────────────────────────────────────
+      - name: Regenerate profile.svg
+        run: python generate_svg.py
+
+      # ── 6. Commit only if SVG changed ─────────────────────────────────────
+      - name: Commit & push if SVG changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage stats.json and profile.svg
+          git add stats.json profile.svg
+
+          # Only commit if there are actual changes
+          if git diff --cached --quiet; then
+            echo "✅ No changes detected — skipping commit."
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+            git commit -m "chore: auto-update profile card [${TIMESTAMP}]"
+            git push
+            echo "🚀 Pushed updated profile card."
+          fi
