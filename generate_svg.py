@@ -37,18 +37,18 @@ STATIC = {
 }
 
 # ── Layout constants ──────────────────────────────────────────────────────────
-SVG_WIDTH        = 900
-SVG_HEIGHT       = 480
-PADDING          = 24          # outer padding from window edge
+SVG_WIDTH        = 1080        # wide enough for 65-char art + right panel
+SVG_HEIGHT       = 520
+PADDING          = 20          # outer padding from window edge
 TITLE_BAR_H      = 36          # height of the macOS-style title bar
 DOT_Y            = TITLE_BAR_H // 2
 DOT_RADIUS       = 7
 DOT_GAP          = 22
-FONT_SIZE        = 13          # px  →  monospace cell ≈ 7.8 px wide, 18 px tall
-LINE_H           = 20          # vertical step between text lines
-CHAR_W           = 7.8         # estimated width of 1 monospace char
-LEFT_PANEL_CHARS = 40          # max chars reserved for the ASCII art column
-RIGHT_PANEL_X    = int(PADDING + LEFT_PANEL_CHARS * CHAR_W + 20)
+FONT_SIZE        = 12          # px — slightly smaller to fit 65-char art
+LINE_H           = 18          # vertical step between text lines
+CHAR_W           = 7.2         # estimated width of 1 monospace char at 12px
+LEFT_PANEL_CHARS = 67          # enough for 65-char wide art + small margin
+RIGHT_PANEL_X    = int(PADDING + LEFT_PANEL_CHARS * CHAR_W + 16)
 TEXT_Y_START     = TITLE_BAR_H + PADDING + FONT_SIZE  # y of first text line
 
 # ── Palette ───────────────────────────────────────────────────────────────────
